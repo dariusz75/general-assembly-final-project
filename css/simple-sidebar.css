@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  padding-top: 60px;
 }
 
 #wrapper {
@@ -127,3 +128,21 @@ body {
     margin-right: 0;
   }
 }
+
+/* Log In drop down */ 
+
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}
+
