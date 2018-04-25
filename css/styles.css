@@ -7,6 +7,7 @@
 body {
   overflow-x: hidden;
   padding-top: 60px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper {
@@ -146,3 +147,39 @@ ul.dropdown-lr {
 	}
 }
 
+/* Custom styles */
+.btn-primary {
+  background-color: rgb(17, 83, 92);
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+h3 {
+  padding: 5px 0 5px 50px;
+  background-color: beige;
+}
+
+h3 span {
+  padding: 0 5px 0 5px;
+  background-color: rgb(17, 83, 92);
+  color: #fff;
+  border-radius: 5px 0 0 5px;
+}
+
+.values-displayed {
+  padding-right: 10px;
+  font-size: 2rem;
+  background-color: beige;
+  text-align: right;
+  border-radius: 0 5px 5px 0;
+}
+
+.values-displayed span {
+  padding: 0 10px;
+  margin-right: 10px;
+  background-color: rgb(17, 83, 92);
+  color: #fff;
+  border-radius: 5px 0 0 5px;
+}
